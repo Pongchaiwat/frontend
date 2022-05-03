@@ -1,0 +1,49 @@
+.customer-info__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .customer-info__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .customer-info__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+
+  .standard {
+    color: white;
+    padding: 0 1rem;
+  }
+  .standard__control{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  .standard label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .standard select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  
+  .customer-info__actions {
+    text-align: right;
+  }
